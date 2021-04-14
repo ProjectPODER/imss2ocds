@@ -1,6 +1,6 @@
 {
   "name": "imss2ocds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transforms IMSS items into OCDS contracts.",
   "main": "index.js",
   "scripts": {
