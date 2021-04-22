@@ -33,9 +33,13 @@ process.stdin.on('end', () => {
         let contracts = splitByDate(item);
         contracts.map( (c, i) => {
             let id = (i >= 1)? key + '-' + i : key;
-            let release = releaseObject(id, c, metadata);
-            process.stdout.write( JSON.stringify(release) );
-            process.stdout.write( "\n" );
+            if(c.length > 0) {
+                c.map( purchase => {
+                    let release = releaseObject(id, [purchase], metadata);
+                    process.stdout.write( JSON.stringify(release) );
+                    process.stdout.write( "\n" );
+                } );
+            }
         });
         delete item;
         delete release;
