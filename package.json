@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Fernando Matzdorf",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "company-laundry": "git+http://git@gitlab.rindecuentas.org/equipo-qqw/company-laundry.git",
     "event-stream": "^4.0.1",

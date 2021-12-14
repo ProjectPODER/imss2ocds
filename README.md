@@ -24,4 +24,4 @@ The script outputs JSON documents, one per line, containing contracts in the [OC
 
 ### Streaming the output
 
-Use a tool such as http://gitlab.rindecuentas.org/equipo-qqw/stream2db/ to stream the JSON objects back into Mongo or ElasticSearch.
+Use a tool such as [stream2db](http://gitlab.rindecuentas.org/equipo-qqw/stream2db/) to stream the JSON objects back into Mongo or ElasticSearch.
